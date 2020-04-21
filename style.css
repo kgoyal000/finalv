@@ -8,7 +8,7 @@ img{
 }
 .taken{
   position: absolute;
-  display: inherit !important;
+  display: none !important;
   height: 20%!important;
   width: 40%!important;
   transition: all 0.5s ease-in;
