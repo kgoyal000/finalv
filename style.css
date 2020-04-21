@@ -20,6 +20,10 @@ img{
   right: 0px;
   z-index: 2;
 }
+#video{
+    transform: scaleX(-1);
+    filter: FlipH;
+}
 
 .fixed-action-btn{
   position: absolute;
