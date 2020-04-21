@@ -85,7 +85,7 @@ function initCameraUI() {
   if (screenfull.isEnabled) {
     screenfull.on('change', fullScreenChange);
 
-    toggleFullScreenButton.style.display = 'block';
+    toggleFullScreenButton.style.display = 'none';
 
     // set init values
     fullScreenChange();
