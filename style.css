@@ -6,6 +6,16 @@ body {
 img{
   display: none;
 }
+     .invert {
+            -webkit-filter: invert(1);
+            filter: invert(1);
+        }
+
+        .sepia {
+            -webkit-filter: sepia(1);
+            filter: sepia(1);
+        }
+
   .none {
             -webkit-filter: none;
             filter: none;
