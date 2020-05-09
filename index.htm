@@ -15,6 +15,14 @@
         <video id="video" autoplay playsinline></video>
         <div id="video_overlay"></div>
     </div>
+    <label for="filter">Filter: </label>
+    <select id="filter">
+        <option value="none">None</option>
+        <option value="blur">Blur</option>
+        <option value="grayscale">Grayscale</option>
+        <option value="invert">Invert</option>
+        <option value="sepia">Sepia</option>
+    </select>
 <!--     All Buttons -->
     <div id="gui_controls">
 <!--  Flip Camera -->
@@ -49,6 +57,13 @@
   <script src="js/screenfull.min.js"></script>
   <script src="js/howler.core.min.js"></script>
   <script src="js/main.js?version=5"></script> 
+  <script>
+    const video = window.video = document.querySelector('video');
+    const filterSelect = document.querySelector('select#filter');
+    filterSelect.onchange = function() {
+  video.className = filterSelect.value;
+};
+  </script>
 
 </body>
 </html>
