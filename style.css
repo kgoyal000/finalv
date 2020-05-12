@@ -21,6 +21,8 @@ img{
 .saturate {filter: saturate(7);}
 .sepia {filter: sepia(100%);}
 .shadow {filter: drop-shadow(8px 8px 10px green);}
+.new{filter: contrast(150%) brightness(200%);}
+
 .taken{
   position: absolute;
   display: none !important;
